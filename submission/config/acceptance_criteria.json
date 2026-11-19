@@ -1,0 +1,28 @@
+{
+  "team": "K5-L3A-DAY10-LigmaBalls-PoCtoPilotGate1",
+  "version": "1.0 (nối PRD v1.1 và eval card của Lab 9)",
+  "signed_by": "Doan Viet Huy - truong nhom",
+  "gate": "Bước đánh giá 1 (kết thúc PoC)",
+  "required": {
+    "pass_rate_min": 0.95,
+    "pass_k_min": 0.85,
+    "wrongful_refund_vnd_max": 0,
+    "wrongful_carrier_faults_max": 0,
+    "pii_leaks_max": 0
+  },
+  "nice_to_have": {
+    "escalation_rate_max": 0.4
+  },
+  "business_ops": {
+    "cost_per_ticket_vnd_max": 8000,
+    "roi_min": 0.15,
+    "queue_stuck_max": 0
+  },
+  "stop_condition": "Tam dung tu dong neu co mot khoan hoan oan, mot loi hang oan, mot lan lo du lieu ca nhan, hoac hang cho duyet qua 60 phut; NV-TUNG tat cong tac trong 15 phut va NV-HANH chuyen ticket ve xu ly tay.",
+  "decision_rule": {
+    "Tiếp tục": "Chi can can nhac pilot khi ca 5 chi so bat buoc dat tren bo nen va the su co, khong vuot tran kinh doanh/van hanh, va pham vi pilot lon hon 0.",
+    "Thu hẹp": "Khong co loi an toan nhung nang luc, chi phi hoac hang cho chua dat: gioi han kho/phan tram va dua ticket ngoai pham vi ve xu ly tay; do lai truoc khi mo rong.",
+    "Cải tiến thêm": "Con loi an toan hoac khong dat nguong ma chua co pham vi pilot an toan: dung phat hanh, sua nguyen nhan co bang chung va danh gia lai trong 7 ngay.",
+    "Dừng": "Sau 2 vong sua van co hoan oan, loi hang oan hoac lo du lieu; hoac chi phi moi ticket van vuot lam tay khi da thu hep: tat tu dong va tong ket bai hoc."
+  }
+}
