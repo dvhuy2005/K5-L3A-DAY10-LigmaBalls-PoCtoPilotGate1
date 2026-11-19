@@ -1,8 +1,8 @@
 {
-  "team": "",
-  "members": [],
-  "incident": "",
-  "decision_v1": "",
+  "team": "K5-L3A-DAY10-LigmaBalls-PoCtoPilotGate1",
+  "members": ["DoanVietHuy-2A202603593", "NguyenMinhDuc-2@20260360a1"],
+  "incident": "S1",
+  "decision_v1": "Cải tiến thêm",
   "decision_v2": "",
   "three_lines": {
     "environment_assumption": "",
